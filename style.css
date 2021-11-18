@@ -93,5 +93,10 @@ info {
 
 }
 
+#hoofdtekst {
+  background: black;
+}
 
-
+#hoofdtitel {
+  background: red;
+}
