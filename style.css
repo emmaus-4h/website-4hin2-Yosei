@@ -1,9 +1,12 @@
 /* Basislayout */
+*{
+  border: 1px dotted red;
+}
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(24, 109, 189);  
+    background-color: red;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -23,7 +26,7 @@ article {
 
 
 header {
-    color: red;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -36,9 +39,14 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+img.zweefRechts {
+    float: right;
+    margin-right: 0px;
+    width: 300px;
+       border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%
 }
 
 .smalltext {
@@ -62,6 +70,11 @@ nav ul {
     padding: 0;
     background-color: rgb(0, 0, 0);
     overflow: hidden;
+    border-radius: 20%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%
 }
 
 nav ul li {
@@ -89,14 +102,20 @@ info {
   width: 60%;
   height: 190px;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
 
 }
 
 #hoofdtekst {
-  background: black;
+  background: ;
 }
 
 #hoofdtitel {
-  background: red;
+  background: fixed;
+}
+*{
+
+box-sizing: border-voox;
+overflow: auto;
+margin: 0px;
 }
