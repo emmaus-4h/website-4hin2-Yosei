@@ -1,4 +1,9 @@
 /* Basislayout */
+* {
+  box-sizing:border-box;
+  overflow:auto;
+}
+
 *{
   border: 1px dotted red;
 }
@@ -36,7 +41,15 @@ footer {
     padding-bottom: 10px;
 }
 
-
+/* min stylen */
+.plaatjeRechts {
+  float: right;
+  width: 300px;
+}
+.tekstLinks {
+  float: left;
+  width: 375px;
+}
 /* specifieke stijlen */
 
 img.zweefRechts {
@@ -70,11 +83,8 @@ nav ul {
     padding: 0;
     background-color: rgb(0, 0, 0);
     overflow: hidden;
-    border-radius: 20%;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    border-top-right-radius: 40%;
-    border-top-left-radius: 40%
+
+
 }
 
 nav ul li {
