@@ -129,3 +129,9 @@ box-sizing: border-voox;
 overflow: auto;
 margin: 0px;
 }
+
+.legends {
+  float: left;
+  margin-left: 100px;
+  width: 100px;
+}
