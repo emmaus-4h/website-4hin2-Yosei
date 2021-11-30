@@ -11,7 +11,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: red;  
+    background-color: black;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -44,18 +44,18 @@ footer {
 /* min stylen */
 .plaatjeRechts {
   float: right;
-  width: 300px;
+  width: 290px;
 }
 .tekstLinks {
   float: left;
-  width: 375px;
+  width: calc(100% - 250px - 40px);
 }
 /* specifieke stijlen */
 
 img.zweefRechts {
     float: right;
     margin-right: 0px;
-    width: 300px;
+    width: 490px;
        border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
     border-top-right-radius: 40%;
