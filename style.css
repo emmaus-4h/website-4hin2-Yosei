@@ -144,11 +144,13 @@ margin: 0px;
   float: left;
   margin-left: 100px;
   width: 100px;
+  margin-top: 30px;
 }
 
 .apex-logo {
   float: left;
   width: 100px;
+
 }
 
 .belangrijk {
@@ -158,4 +160,9 @@ margin: 0px;
 
 #index-tekst {
   background-color: white;
+}
+
+.backwards {
+  float: left;
+  size: 30px
 }
