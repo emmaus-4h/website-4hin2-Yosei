@@ -166,3 +166,16 @@ margin: 0px;
   float: left;
   size: 30px
 }
+
+.plaatje-bovenin {
+  float: right;
+  margin-top: 0px;
+  width: 290px;
+}
+
+.heirlooms {
+  float: left;
+  margin-left: 100px;
+  width: 100px;
+  margin-top: 30px;
+}
