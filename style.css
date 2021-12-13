@@ -175,9 +175,9 @@ margin: 0px;
 }
 
 .heirlooms {
-  margin-left: 100px;
-  margin-right: auto;
+  float: right;
+  margin-right: 30px;
   margin-top: 30px;
-  width: 500px;
+  width: 400px;
 }
 
