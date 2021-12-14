@@ -165,7 +165,7 @@ margin: 0px;
 .backwards {
   float: left;
   width: 30px;
-  position: fixed;
+  position: sticky;
 }
 
 .plaatje-bovenin {
@@ -174,10 +174,28 @@ margin: 0px;
   width: 290px;
 }
 
-.heirlooms {
+.heirlooms-plaatje {
   float: right;
   margin-right: 30px;
   margin-top: 30px;
   width: 400px;
 }
 
+/*
+.heirlooms-tekst {
+float: left;
+margin-left: 5px;
+width: 200px;
+margin-top: 30px;
+}
+*/
+
+.heirloom-title {
+  color: red;
+  font-size: 20px;
+  font: Arial sans-serif;
+  float: left;
+  margin-left: 5px;
+  width: 200px;
+  margin-top: 90px;
+}
