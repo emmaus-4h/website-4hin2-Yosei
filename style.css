@@ -165,7 +165,7 @@ margin: 0px;
 .backwards {
   float: left;
   width: 30px;
-  position: sticky;
+  position: fixed;
 }
 
 .plaatje-bovenin {
