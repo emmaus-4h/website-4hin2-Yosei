@@ -96,6 +96,7 @@ nav ul {
     background-color: blanchedalmond;
     overflow: hidden;
     border: 1px black inset;
+
   
 
 
@@ -116,6 +117,7 @@ nav li a {
 
 nav li a:hover {
     background-color: red;
+    transition: 0.5s;
 }
 
 nav li a.active {
@@ -201,4 +203,20 @@ margin-top: 30px;
   margin-left: 5px;
   width: 200px;
   margin-top: 90px;
+}
+
+.abc {
+    height: 100%;
+    padding: 0;
+    background: url(afbeeldingen/backwards.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.video {
+  float: right;
+  margin-top: 0px;
+  width: 290px;
+  
 }
