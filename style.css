@@ -234,3 +234,16 @@ th, td {
 .heavyammo {
   background-color: #7eeadf;
 }
+
+.energyammo {
+  background-color: greenyellow;
+
+}
+
+.sniperammo {
+  background-color: 	#6495ED;
+}
+
+.shotgunammo {
+  background-color: 	#FF6347;
+}
