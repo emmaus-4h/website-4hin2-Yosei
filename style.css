@@ -76,6 +76,7 @@ img.zweefRechts {
 
 .smalltext {
     font-size: 0.7em;
+
 }
 
 a {
@@ -179,10 +180,10 @@ margin: 0px;
   width: 290px;
 }
 
-.heirlooms-plaatje {
   float: right;
   margin-right: 30px;
   margin-top: 30px;
+.heirlooms-plaatje {
   width: 400px;
 }
 
@@ -219,4 +220,13 @@ margin-top: 30px;
   margin-top: 0px;
   width: 290px;
   
+}
+
+th, td {
+  border: 1px black solid;
+}
+
+.lightammo {
+  background-color: #ffc168;
+
 }
