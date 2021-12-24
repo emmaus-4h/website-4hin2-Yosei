@@ -149,9 +149,7 @@ margin: 0px;
 
 .legends {
   float: left;
-  margin-left: 100px;
-  width: 100px;
-  margin-top: 30px;
+  width: 60px;
 }
 
 .apex-logo {
@@ -251,9 +249,11 @@ th, td {
 
 .legendsplaatje {
   float: left;
-  width: 100px;
+  width: 168px;
   vertical-align: top;
   display: inline - block;
-  margin-left: 30px;
-  border: 0px white dotted;
+
+
 }
+
+
