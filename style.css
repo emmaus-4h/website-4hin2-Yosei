@@ -109,7 +109,8 @@ nav ul li {
 }
 
 nav li a {
-    display: block;
+
+    display: block;  
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -180,11 +181,11 @@ margin: 0px;
   width: 290px;
 }
 
-  float: right;
+.heirlooms-plaatje {
+    float: right;
   margin-right: 30px;
   margin-top: 30px;
-.heirlooms-plaatje {
-  width: 400px;
+    width: 400px;
 }
 
 /*
@@ -246,4 +247,13 @@ th, td {
 
 .shotgunammo {
   background-color: 	#FF6347;
+}
+
+.legendsplaatje {
+  float: left;
+  width: 100px;
+  vertical-align: top;
+  display: inline - block;
+  margin-left: 30px;
+  border: 0px white dotted;
 }
