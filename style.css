@@ -32,7 +32,7 @@ main {
 
 article {
     text-align: justify;
-    background-color: white;
+    background-color: rgba(192,192,192,0.3);
   
 }
 
@@ -57,8 +57,7 @@ footer {
 .tekstLinks {
   float: left;
   width: calc(100% - 250px - 40px);
-  margin-top: 10px;
-  background-color: white;
+  margin-top: 10px
 }
 /* specifieke stijlen */
 
@@ -160,9 +159,7 @@ margin: 0px;
   margin-left: 170px;
 }
 
-.normal-tekst {
-  background-color: white;
-}
+
 
 .backwards {
   float: left;
@@ -253,4 +250,10 @@ th, td {
 
 }
 
+.maps {
+  float: right;
+  margin-top: 30px;
+  width: 200px;
+  
 
+}
