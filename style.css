@@ -1,10 +1,6 @@
 /* Basislayout */
 
 
-/*{ 
-  border: 1px dotted red;
-
-} */
 
 
 /* main */
@@ -18,11 +14,9 @@ html, body {
     background-size: cover;
 
     
-    color: white;
+    color: whitesmoke;
     font: Verdana, Arial, Sans-Serif;
 }
-
-
 
 
 main {
@@ -35,10 +29,6 @@ main {
 article {
     text-align: justify;
     background-color: rgba(192,192,192,0.3);
-    height: 100%;
-    padding: 0;
-
-
   
 }
 
@@ -49,23 +39,29 @@ header {
 }
 
 
+
+
 footer {
     text-align: center;
     padding-bottom: 10px;
 }
 
+* {
+box-sizing: border-box;
+overflow: auto;
+margin: 0px;
+}
 
 .plaatjeRechts {
   float: right;
   width: 290px;
   margin-top: 10px;
-
 }
 .tekstLinks {
   float: left;
-  width: 70%;
+  width: calc(100% - 250px - 40px);
   margin-top: 10px
-
+}
 
 
 .smalltext {
@@ -73,6 +69,7 @@ footer {
 
 }
 
+/* link */
 a {
     color: skyblue;
     text-decoration: none;
@@ -88,7 +85,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: rgba(255,0,0,0.3);
+    background-color:rgba(255,0,0,0.3);
     overflow: hidden;
     border: 1px black inset;
 
@@ -120,25 +117,12 @@ nav li a.active {
     background-color:   rgb(255, 38, 0);
 }
 
-info {
-  background: black;
-  width: 60%;
-  height: 190px;
-  overflow-y: auto;
-  overflow-x: auto;
-}
 
 
 }
 
-#hoofdtitel {
-  background: fixed;
-}
-*{
-box-sizing: border-box;
-overflow: auto;
-margin: 0px;
-}
+
+
 
 .legends {
   float: left;
@@ -195,6 +179,7 @@ margin-top: 30px;
   width: 200px;
   margin-top: 90px;
 }
+
 
 .video {
   float: right;
