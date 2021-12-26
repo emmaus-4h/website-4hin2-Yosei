@@ -14,10 +14,14 @@ html, body {
     background-size: cover;
 
     
-    color: lightblue;
+    color: blanchedalmond;
     font: Verdana, Arial, Sans-Serif;
 }
 
+body { 
+  min-height: 100vh;
+  position: relative;
+ }
 
 main {
     margin: 0 auto;
@@ -29,12 +33,13 @@ main {
 article {
     text-align: justify;
     background-color: rgba(192,192,192,0.3);
-  
+    border: 3px solid tomato;
+    border-radius: 5px;
 }
 
 
 header {
-    color: black;
+    color:  red;
     text-align: center;
 }
 
@@ -110,9 +115,11 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color:rgba(255,0,0,0.3);
+    background-color:rgba(192,192,192,0.3);
     overflow: hidden;
     border: 1px black inset;
+    margin-bottom: 20px;
+    border-radius: 25px;
 
   
 
@@ -208,7 +215,7 @@ th, td {
 
 .legendsplaatje {
   float: left;
-  width: 168px;
+  width: 167px;
   vertical-align: top;
   display: inline - block;
 }
@@ -225,4 +232,8 @@ th, td {
   width: 200px;
   
 
+}
+
+.mapcolor {
+  color: red;
 }
