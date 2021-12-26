@@ -7,7 +7,7 @@
 } */
 
 
-
+/* main */
 
 html, body {
     height: 100%;
@@ -18,9 +18,11 @@ html, body {
     background-size: cover;
 
     
-    color: #303030;
+    color: white;
     font: Verdana, Arial, Sans-Serif;
 }
+
+
 
 
 main {
@@ -33,6 +35,10 @@ main {
 article {
     text-align: justify;
     background-color: rgba(192,192,192,0.3);
+    height: 100%;
+    padding: 0;
+
+
   
 }
 
@@ -48,28 +54,19 @@ footer {
     padding-bottom: 10px;
 }
 
-/* min stylen */
+
 .plaatjeRechts {
   float: right;
   width: 290px;
   margin-top: 10px;
+
 }
 .tekstLinks {
   float: left;
-  width: calc(100% - 250px - 40px);
+  width: 70%;
   margin-top: 10px
-}
-/* specifieke stijlen */
 
-img.zweefRechts {
-    float: right;
-    margin-right: 0px;
-    width: 490px;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    border-top-right-radius: 40%;
-    border-top-left-radius: 40%
-}
+
 
 .smalltext {
     font-size: 0.7em;
@@ -91,7 +88,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: blanchedalmond;
+    background-color: rgba(255,0,0,0.3);
     overflow: hidden;
     border: 1px black inset;
 
@@ -197,15 +194,6 @@ margin-top: 30px;
   margin-left: 5px;
   width: 200px;
   margin-top: 90px;
-}
-
-.abc {
-    height: 100%;
-    padding: 0;
-    background: url(afbeeldingen/backwards.png); 
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-size: cover;
 }
 
 .video {
