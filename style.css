@@ -14,7 +14,7 @@ html, body {
     background-size: cover;
 
     
-    color: whitesmoke;
+    color: lightblue;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -69,6 +69,31 @@ margin: 0px;
 
 }
 
+.apex-logo {
+  float: left;
+  width: 100px;
+
+}
+
+.belangrijk {
+  float: left;
+  margin-left: 170px;
+}
+
+
+
+.backwards {
+  float: left;
+  width: 30px;
+  position: fixed;
+}
+
+.plaatje-bovenin {
+  float: right;
+  margin-top: 0px;
+  width: 290px;
+}
+
 /* link */
 a {
     color: skyblue;
@@ -119,56 +144,13 @@ nav li a.active {
 
 
 
-}
 
 
 
 
-.legends {
-  float: left;
-  width: 60px;
-}
-
-.apex-logo {
-  float: left;
-  width: 100px;
-
-}
-
-.belangrijk {
-  float: left;
-  margin-left: 170px;
-}
 
 
-
-.backwards {
-  float: left;
-  width: 30px;
-  position: fixed;
-}
-
-.plaatje-bovenin {
-  float: right;
-  margin-top: 0px;
-  width: 290px;
-}
-
-.heirlooms-plaatje {
-    float: right;
-  margin-right: 30px;
-  margin-top: 30px;
-    width: 400px;
-}
-
-/*
-.heirlooms-tekst {
-float: left;
-margin-left: 5px;
-width: 200px;
-margin-top: 30px;
-}
-*/
+/* home */
 
 .heirloom-title {
   color: red;
@@ -180,6 +162,12 @@ margin-top: 30px;
   margin-top: 90px;
 }
 
+.heirlooms-plaatje {
+    float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+    width: 400px;
+}
 
 .video {
   float: right;
@@ -187,6 +175,8 @@ margin-top: 30px;
   width: 290px;
   
 }
+
+/* weapons */
 
 th, td {
   border: 1px black solid;
@@ -214,15 +204,21 @@ th, td {
   background-color: 	#FF6347;
 }
 
+/* legends */
+
 .legendsplaatje {
   float: left;
   width: 168px;
   vertical-align: top;
   display: inline - block;
-
-
 }
 
+.legends {
+  float: left;
+  width: 60px;
+}
+
+/* maps */
 .maps {
   float: right;
   margin-top: 30px;
